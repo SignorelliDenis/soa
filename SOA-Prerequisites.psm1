@@ -1304,6 +1304,11 @@ Function Get-RequiredAppPermissions
         Resource="00000003-0000-0000-c000-000000000000" # Graph
     }
     $AppRoles += New-Object -TypeName PSObject -Property @{
+        ID="06a5fe6d-c49d-46a7-b082-56b1b14103c7"
+        Name="DeviceManagementServiceConfig.Read.All"
+        Resource="00000003-0000-0000-c000-000000000000" # Graph
+    }
+    $AppRoles += New-Object -TypeName PSObject -Property @{
         ID="b0afded3-3588-46d8-8b3d-9842eff778da"
         Name="AuditLog.Read.All"
         Resource="00000003-0000-0000-c000-000000000000" # Graph
